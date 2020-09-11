@@ -40,7 +40,39 @@ section{
     padding: 40px 0;
 }
 
-
+.tt-button{
+    border-radius: 30px;
+    outline: none;
+    padding: 9px 30px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.bt-blue{
+    color: #ffffff;
+    background-color: #039be5;
+}
+.bt-orange{
+    color: #ffffff;
+    background-color: #fe4c1c;
+}
+.bt-orange i{
+    color: #fe4c1c!important;
+}
+.tt-button i{
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    color: #039be5;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: -22px;
+}
 
 /*header*/
 header{
@@ -162,6 +194,62 @@ header{
     -ms-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
+
+/*banner*/
+.banner{
+    background-image: linear-gradient(to left bottom, #0cc9ea, #00a3e6, #007bdd, #0050c6, #20149e);
+    height: 100vh;
+}
+.banner .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.content p{
+    color: #c4f1ff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.content h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.content h2{
+    color: #00c3ff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.form-search{
+    position: relative;
+}
+.form-search input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+.form-search button{
+    border-radius: 20px;
+    outline: none;
+    background-color: #fe4c1c;
+    color: #ffffff;
+    padding: 9px 30px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -239,6 +327,25 @@ header{
     }
     .menu-navbar li a:hover{
         color: #000;
+    }
+
+    /*banner*/
+    .form-search input{
+        width: 400px;
+    }
+    .form-search button{
+        position: absolute;
+        right: 106px;
+        top: 3px;
+    }
+
+    .content h1{
+        font-size: 72px;
+        margin: 30px 0;
+    }
+    .content h2{
+        font-size: 70px;
+        margin: 30px 0;
     }
 
   
