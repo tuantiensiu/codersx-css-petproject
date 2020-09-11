@@ -354,6 +354,110 @@ header{
     margin-bottom: 10px;
 }
 
+/*pricing*/
+.pricing{
+    background-color: #f0f6ff;
+}
+.pricing h6{
+    margin-left: -10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a5b7d2;
+    position: relative;
+    display: inline-block;
+    padding-left: 21px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.pricing h6:before{
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #a5b7d2;
+    top: 3.5px;
+    left: 0;
+    border-radius: 50%;
+}
+.pricing h6:after{
+    left: auto;
+    right: -21px;
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #a5b7d2;
+    top: 3.5px;
+    border-radius: 50%;
+}
+.pricing h2{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #1a1b1e;
+    margin-bottom: 25px;
+}
+.pricing p{
+    color: #9e9e9e;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.pricing .box{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 445px;
+}
+.pricing .box .type{
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.level-1{
+    background-color: #00c3ff;
+}
+.level-2{
+    background-color: #0160e7;
+}
+.color-economy{
+    color: #0160e7!important;
+}
+.level-3{
+    background-color: #fe4c1c;
+}
+.color-exe{
+    color: #fe4c1c!important;
+}
+.pricing .box img{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.pricing .box h2{
+    color: #00c3ff;
+}
+.pricing .box p{
+    color: #a5b7d2;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.details ul li{
+    font-weight: 100;
+    line-height: 30px;
+}
+
 
 @media only screen and (min-width: 600px) {
     /* For tablets: */
@@ -470,6 +574,12 @@ header{
     .elementor{
         background-image: url('https://i.imgur.com/v66asVn.png');
         background-position: 100% 115px;
+        background-repeat: no-repeat;
+    }
+
+    .pricing{
+        background-image: url("https://i.imgur.com/ShO1X1D.png");
+        background-position: top left;
         background-repeat: no-repeat;
     }
 }
